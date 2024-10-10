@@ -117,6 +117,11 @@ class _MyHomePageState extends State<MyHomePage> {
               width: 100,
               child: const Text('You have pushed the button this many times:'),
             ),
+            const Text('Mochammad Nizar Mahi - 2241720185'),
+            Text(
+              '$_counter', // This text is displayed above the 'You have pushed...' widgets
+              style: Theme.of(context).textTheme.headlineMedium,
+            )
           ],
         ),
       ),
